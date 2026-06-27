@@ -1,0 +1,27 @@
+"use strict";
+let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+function addtsk() {
+  tasks.push(document.getElementById("tskinput").value);
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+  alert(`The Task Of " ${tasks[tasks.length - 1]} " Added`);
+}
+
+function rm(i) {
+  tasks.splice(i, 1);
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+  tsklist();
+}
+
+function tsklist() {
+  let html = "";
+  for (let i = 0; i < tasks.length; i++) {
+    html += "<li>" + tasks[i] +
+      `<button id=btn3 onclick='rm(${i})'>x</button></li>`
+  }
+  document.getElementById("list").innerHTML = html;
+}
+tsklist();
+
+function ClearAll() {
+  localStorage.clear();
+}
