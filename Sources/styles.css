@@ -32,6 +32,7 @@ h1 {
 }
 
 
+
 input {
     border: 2px dotted black;
     padding: 10px;
@@ -76,19 +77,18 @@ li {
         serif;
     background-color: #e3e1e1;
     font-size: 20px;
-    margin: 10px;
     padding: 15px;
     width: 500px;
     border-radius: 15px;
     text-align: left;
-    display: inline-block;
+    margin: 0px auto;
 }
 
 li:hover {
     background-color: #e3e1e1;
     box-shadow: 0 0 10px #c4c4c4;
     cursor: pointer;
-    padding: 16px;
+    padding: 15.5px;
 }
 
 #rmbtn {
@@ -97,9 +97,21 @@ li:hover {
     color: #e3e1e1;
     padding: 5px 10px;
     float: right;
-    border-radius: 60px;
+    margin: 0px 5px;
 }
 
 #rmbtn:hover {
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 5px red;
+}
+
+#dtbtn {
+    background-color: yellow;
+    border: yellow;
+    color: #2B2B2B;
+    padding: 5px 10px;
+    float: right;
+}
+
+#dtbtn:hover {
+    box-shadow: 0 0 10px yellow;
 }
