@@ -31,19 +31,20 @@ h1 {
     }
 }
 
-div {
-    margin: 100px 20px;
-}
-
-form {
-    margin-top: 50px;
-}
 
 input {
-    border: 2px dashed black;
+    border: 2px dotted black;
     padding: 10px;
-    padding-right: 200px;
+    width: 400px;
+    margin-top: 25px;
     border-radius: 15px;
+    text-align: left;
+}
+
+input:hover {
+    box-shadow: 0 0 10px #c4c4c4;
+    border: dashed;
+    padding: 9px;
 }
 
 button {
@@ -52,19 +53,18 @@ button {
     cursor: pointer;
 }
 
-#btn {
-    margin: 20px;
-    padding: 9px 189px;
-}
-
-input:hover {
-    box-shadow: 0 0 10px #c4c4c4;
-}
-
 button:hover {
     background-color: #e3e1e1;
     box-shadow: 0 0 10px #c4c4c4;
 
+}
+
+#btn {
+    margin: 10px;
+}
+
+.ls {
+    padding: 10px 213px;
 }
 
 li {
@@ -76,32 +76,30 @@ li {
         serif;
     background-color: #e3e1e1;
     font-size: 20px;
-    padding: 20px 50px;
-    margin: 20px 500px;
+    margin: 10px;
+    padding: 15px;
+    width: 500px;
     border-radius: 15px;
     text-align: left;
+    display: inline-block;
 }
 
 li:hover {
     background-color: #e3e1e1;
     box-shadow: 0 0 10px #c4c4c4;
     cursor: pointer;
+    padding: 16px;
 }
 
-#btn3 {
+#rmbtn {
     background-color: red;
+    border: red;
     color: #e3e1e1;
-    padding: 10px 20px;
-    margin-top: -6px;
-    margin-right: -25px;
+    padding: 5px 10px;
     float: right;
-    border-radius: 15px;
+    border-radius: 60px;
 }
 
-#btn3:hover {
-    background-color: #e3e1e1;
-    color: black;
-    padding: 10px 30px;
-    margin-top: -6px;
-    margin-right: -25px;
+#rmbtn:hover {
+    box-shadow: 0 0 10px red;
 }

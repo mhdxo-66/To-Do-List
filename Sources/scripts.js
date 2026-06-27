@@ -16,7 +16,7 @@ function tsklist() {
   let html = "";
   for (let i = 0; i < tasks.length; i++) {
     html += "<li>" + tasks[i] +
-      `<button id=btn3 onclick='rm(${i})'>x</button></li>`
+      `<button id=rmbtn onclick='rm(${i})'>x</button></li>`
   }
   document.getElementById("list").innerHTML = html;
 }
