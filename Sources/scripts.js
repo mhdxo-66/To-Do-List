@@ -26,3 +26,6 @@ tsklist();
 function ClearAll() {
   localStorage.clear();
 }
+
+const dates = new Date();
+const date = `${dates.getFullYear()}/${dates.getMonth() + 1}/${dates.getDate()}`
