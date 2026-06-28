@@ -4,52 +4,23 @@ body {
     color: #2B2B2B;
 }
 
-
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    animation: rainbow 3s linear infinite;
-    font-size: 60px;
+legend {
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-
-@keyframes rainbow {
-    0% {
-        backdrop-filter: blur(4px);
-        color: white;
-        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-    }
-
-    50% {
-        backdrop-filter: blur(4px);
-        color: gray;
-        text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
-    }
-
-    100% {
-        backdrop-filter: blur(4px);
-        color: white;
-        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
-    }
-}
-
-
-
-input {
-    border: 2px dotted black;
-    padding: 10px;
-    width: 400px;
+fieldset {
+    background-color: #A6D5FF;
+    height: 680px;
+    width: 600px;
     margin: 0 auto;
-    border-radius: 15px;
-    text-align: left;
-}
-
-input:hover {
-    box-shadow: 0 0 10px #c4c4c4;
-    border: dashed;
-    padding: 9px;
+    border-radius: 25px;
 }
 
 button {
+    background-color: white;
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
@@ -62,39 +33,58 @@ button:hover {
 }
 
 #btn {
-    margin: 10px;
+    margin-top: 20px;
+    border: #e3e1e1
 }
 
 .ls {
     padding: 10px 213px;
 }
 
+ul {
+    list-style: none;
+    padding: 5px 20px;
+    overflow-y: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 5px 20px;
+    margin: 20px 0 0;
+    height: 560px;
+    overflow-y: auto;
+}
+
 li {
+    list-style: none;
     font-family: Cambria,
         Cochin,
         Georgia,
         Times,
         'Times New Roman',
         serif;
-    background-color: #e3e1e1;
+    background-color: white;
     font-size: 20px;
     padding: 15px;
+    height: 20px;
     width: 500px;
     border-radius: 15px;
     text-align: left;
     margin: 10px auto;
+    margin-top: -1px;
+    line-height: 20px;
 }
 
 li:hover {
-    background-color: #e3e1e1;
-    box-shadow: 0 0 10px #c4c4c4;
+    background-color: #e3e3e3;
+    box-shadow: 0 0 10px white;
     cursor: pointer;
     padding: 15.5px;
 }
 
 #rmbtn {
-    background-color: red;
-    border: red;
+    background-color: #FC4949;
+    border: #FC4949;
     color: #e3e1e1;
     padding: 5px 10px;
     float: right;
@@ -102,14 +92,16 @@ li:hover {
 }
 
 #rmbtn:hover {
+    background-color: red;
     box-shadow: 0 0 5px red;
 }
 
 #dtbtn {
-    background-color: yellow;
-    border: yellow;
+    background-color: #FFFD8A;
+    border: #FFFD8A;
     color: #2B2B2B;
     padding: 5px 10px;
+    margin: 0px 5px;
     float: right;
 }
 
