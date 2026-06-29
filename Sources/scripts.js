@@ -37,9 +37,9 @@ function dt(i) {
 function tsklist() {
   let html = "";
   for (let i = 0; i < tasks.length; i++) {
-    html += "<li>" + tasks[i] +
-      `<button id=rmbtn onclick='rm(${i})'>x</button><button id=dtbtn onclick='dt(${i})'>✏️</button></li>`
-
+    html += `<li onclick="done(this)">
+      <button id=rmbtn onclick='rm(${i})'>x</button>
+      <button id=dtbtn onclick='dt(${i})'>✏️</button>${tasks[i]}</li>`
   }
   document.getElementById("list").innerHTML = html;
 }
@@ -47,4 +47,11 @@ tsklist();
 
 function ClearAll() {
   localStorage.clear();
+}
+
+function done(item) {
+  item.style.textDecoration =
+    item.style.textDecoration === "line-through"
+      ? "none"
+      : "line-through";
 }
