@@ -57,6 +57,7 @@ ul {
 
 li {
     list-style: none;
+    user-select: none;
     font-family: Cambria,
         Cochin,
         Georgia,
