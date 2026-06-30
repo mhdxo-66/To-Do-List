@@ -100,12 +100,9 @@ li:hover {
 }
 
 @media(max-width: 768px) {
-    ul {
-        height: 690px;
-    }
 
     fieldset {
-        height: auto;
+        height: 700px;
         width: auto;
         border-radius: 25px;
     }
