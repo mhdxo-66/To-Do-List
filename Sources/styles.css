@@ -33,20 +33,13 @@ button:hover {
 }
 
 #btn {
+    margin: auto 3px;
     margin-top: 20px;
     border: #e3e1e1
 }
 
-.ls {
-    padding: 10px 213px;
-}
-
-
 ul {
     list-style: none;
-    padding: 5px 20px;
-    margin: 20px auto;
-    height: 560px;
     overflow-y: auto;
     padding: 5px 20px;
 }
@@ -70,7 +63,6 @@ li {
     text-align: left;
     margin: 10px auto;
     margin-top: -1px;
-    line-height: 20px;
 }
 
 li:hover {
@@ -85,21 +77,19 @@ li:hover {
     border: #FC4949;
     color: #e3e1e1;
     padding: 5px 10px;
+    margin: auto 5px;
     float: right;
-    margin: 0px 5px;
 }
 
 #rmbtn:hover {
-    background-color: red;
     box-shadow: 0 0 5px red;
 }
 
 #dtbtn {
     background-color: #FFFD8A;
     border: #FFFD8A;
-    color: #2B2B2B;
     padding: 5px 10px;
-    margin: 0px 5px;
+    margin: auto 2px;
     float: right;
 }
 
@@ -109,31 +99,18 @@ li:hover {
 
 @media(max-width: 768px) {
     ul {
-        list-style: none;
-        padding: 5px 20px;
-        margin: 20px auto;
-        height: 450px;
-        overflow-y: auto;
-        padding: 5px 20px;
-    }
-
-    legend {
-        background-color: white;
-        width: 100px;
-        padding: 5px;
-        border-radius: 10px;
+        height: 650px;
     }
 
     fieldset {
-        background-color: #A6D5FF;
-        height: auto;
-        width: 90px;
-        margin: 0 auto;
-        border-radius: 25px;
+        width: auto;
     }
 
     li {
-        margin: 5px;
-        width: 250px;
+        margin: 10px auto;
+        padding: auto;
+        width: 300px;
+        margin-top: -1px;
+
     }
 }
