@@ -47,7 +47,6 @@ tsklist();
 
 function ClearAll() {
   localStorage.clear();
-<<<<<<< HEAD
 }
 
 function done(item) {
@@ -55,6 +54,4 @@ function done(item) {
     item.style.textDecoration === "line-through"
       ? "none"
       : "line-through";
-=======
->>>>>>> test
 }

@@ -37,27 +37,12 @@ button:hover {
     border: #e3e1e1
 }
 
-<<<<<<< HEAD
 ul {
     list-style: none;
     height: 560px;
     overflow-y: auto;
     margin: 0px;
     padding: 20px 15px;
-=======
-.ls {
-    padding: 10px 213px;
-}
-
-
-ul {
-    list-style: none;
-    padding: 5px 20px;
-    margin: 20px auto;
-    height: 560px;
-    overflow-y: auto;
-    padding: 5px 20px;
->>>>>>> test
 }
 
 
@@ -115,44 +100,15 @@ li:hover {
 }
 
 @media(max-width: 768px) {
-<<<<<<< HEAD
 
     fieldset {
         height: 700px;
         width: auto;
-=======
-    ul {
-        list-style: none;
-        padding: 5px 20px;
-        margin: 20px auto;
-        height: 450px;
-        overflow-y: auto;
-        padding: 5px 20px;
-    }
-
-    legend {
-        background-color: white;
-        width: 100px;
-        padding: 5px;
-        border-radius: 10px;
-    }
-
-    fieldset {
-        background-color: #A6D5FF;
-        height: auto;
-        width: 90px;
-        margin: 0 auto;
->>>>>>> test
         border-radius: 25px;
     }
 
     li {
-<<<<<<< HEAD
         margin: 5px auto;
         width: auto;
-=======
-        margin: 5px;
-        width: 250px;
->>>>>>> test
     }
 }
