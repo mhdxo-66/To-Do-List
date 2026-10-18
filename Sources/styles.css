@@ -1,5 +1,5 @@
 body {
-    background-color: #2B2B2B;
+    background-color: #2F2F2F;
     text-align: center;
     color: #2B2B2B;
 }
@@ -13,9 +13,9 @@ legend {
 
 fieldset {
     background-color: #A6D5FF;
-    height: auto;
+    height: 850px;
     width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 25px;
 }
 
