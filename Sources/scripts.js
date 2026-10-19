@@ -24,7 +24,7 @@ function rm(i) {
   tsklist();
 }
 
-function dt(i) {
+function edit(i) {
   let task;
   task = prompt("Edit your task", tasks[i]);
 
@@ -47,7 +47,7 @@ function tsklist() {
   for (let i = 0; i < tasks.length; i++) {
     html += `<li onclick="done(this)">
       <button id="rmbtn" onclick='rm(${i})'>x</button>
-      <button id="dtbtn" onclick='dt(${i})'>✏️</button>${tasks[i]}</li>`;
+      <button id="dtbtn" onclick='edit(${i})'>✏️</button>${tasks[i]}</li>`;
   }
 
   document.getElementById("list").innerHTML = html;
