@@ -32,7 +32,7 @@ button:hover {
 
 }
 
-#btn {
+.btn {
     margin: 20px 5px 10px 5px;
     border: #e3e1e1
 }

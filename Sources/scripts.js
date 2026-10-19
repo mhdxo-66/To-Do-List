@@ -2,7 +2,7 @@
 
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
-function AddTsk() {
+document.querySelector('#add').addEventListener('click', function AddTsk() {
   let task;
   task = prompt("Enter a task");
 
@@ -16,7 +16,7 @@ function AddTsk() {
   }
 
   localStorage.setItem("tasks", JSON.stringify(tasks));
-}
+})
 
 function rm(i) {
   tasks.splice(i, 1);
@@ -55,9 +55,10 @@ function tsklist() {
 
 tsklist();
 
-function ClearAll() {
+
+document.querySelector('#clr').addEventListener('click',function ClearAll() {
   localStorage.clear();
-}
+})
 
 function done(item) {
   item.style.textDecoration =
